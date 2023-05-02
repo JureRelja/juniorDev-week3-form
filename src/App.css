@@ -1,0 +1,141 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: #00000029 0px 0px 10px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  row-gap: 30px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 100%;
+  row-gap: 5px;
+}
+
+.input-field input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c6c2ba;
+}
+
+.input-field select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c6c2ba;
+
+}
+
+.personal-data h2 {
+  text-align: left;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  color: #E21818;
+  margin-top: 10px;
+}
+
+.radio-field {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.option input {
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border: 1px solid #c6c2ba;
+
+} 
+
+.checkbox-field {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.checkbox-field input {
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #c6c2ba;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
+}
+
+button:hover
+{
+  opacity: 0.8;
+}
+
+.summary {
+  margin-top: 20px;
+  border-top: 1px solid #c6c2ba;
+}
