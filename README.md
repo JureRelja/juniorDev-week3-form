@@ -21,4 +21,4 @@ In March 2023 I attended a 2-month long React education at [Digitalna Dalmacija]
 
 ### What I learned
 
-The third week was quite easy. I learned a little bit more about how to handle different inputs and about an important concept called "Lifting the state up". Tha allowed me to be able to send data from child to parent compoents.
+The third week was quite easy. I learned a little bit more about how to handle different inputs and about an important concept called "Lifting the state up". That allowed me to be able to send data from child to parent components.
